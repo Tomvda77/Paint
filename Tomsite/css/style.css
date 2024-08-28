@@ -10,7 +10,7 @@ header{
     background-size: 100% 100%;
     border-bottom: solid 4px;
     border-color: brown;
-    min-height: 100px;
+    min-height: 80px;
 }
 
 header #painting{
@@ -18,8 +18,7 @@ header #painting{
 }
 
 header #painting h1{
-    padding-top: 15px;
-    margin: 0;
+    margin-top: 15px;
 }
 
 header .current a{
@@ -29,13 +28,14 @@ header .current a{
 }
 
 header nav{
+    margin-top: -30px;
     float:right;
 }
 
 header ul{
     color: white;
-    margin: 0;
-    padding: 0;
+    margin: -15px;
+    padding: -15px;
 }
 
 header li{
@@ -84,14 +84,14 @@ header li a{
 }
 
 #showcase{
-    min-height: 115px;
-    background: url(../images/showcase.JPG)  no-repeat;
+    min-height: 150px;
+    background: url(../images/showcase.jpg)  no-repeat;
     background-size: 100% 100%; 
     color: white;  
 }
 
 #newsletter {
-    background: url(../images/subscribe.JPG)  no-repeat;
+    background: url(../images/subscribe.jpg)  no-repeat;
     background-size: 100% 100%;  
     border-bottom: solid 4px;
     border-color: brown;      
@@ -136,15 +136,15 @@ footer{
     background-color: brown;
     text-align: center;
 }
+#about img{
+    height: 175px;
+    float: left;
+    padding-right: 20px;
+}
+
 
 #about .container{
     margin-top: 50px;
     text-align: left;
 
-}
-
-#about img{
-    height: 175px;
-    float: left;
-    padding-right: 20px;
 }
