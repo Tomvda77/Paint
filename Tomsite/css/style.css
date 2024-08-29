@@ -3,6 +3,7 @@ body{
     line-height: 1.6em;
     padding: 0;
     margin: 0;
+    overflow-x: hidden;
 }
 
 header{    
@@ -10,7 +11,6 @@ header{
     background-size: 100% 100%;
     border-bottom: solid 4px;
     border-color: brown;
-    min-height: 80px;
 }
 
 header #painting{
@@ -84,7 +84,6 @@ header li a{
 }
 
 #showcase{
-    min-height: 150px;
     background: url(../images/showcase.jpg)  no-repeat;
     background-size: 100% 100%; 
     color: white;  
@@ -130,8 +129,8 @@ header li a{
 
 
 footer{
-    margin-top: 240px;
-    padding: 15px;
+    clear: both;     
+    padding: 4px;
     color: white;
     background-color: brown;
     text-align: center;
