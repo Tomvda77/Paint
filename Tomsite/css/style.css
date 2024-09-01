@@ -108,14 +108,16 @@ header li a{
 }
 
 #boxes{
-    margin-top: 20px;
-    height: 250px;
+    margin-top: 0px;
+    height: 200px;
+    max-height: 250px;
 }
 
 #boxes .box{
     float: left;
     width: 23%; 
-    padding: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
     text-align: center;  
 }
 
@@ -126,6 +128,7 @@ header li a{
 
 #boxes .box img{
     width: 180px;
+    min-width: 50px;
 }
 
 
@@ -221,8 +224,7 @@ footer{
     margin: 0px 0px 0px -100px;
     background-color: white;
     text-align: center;
-    width: 100%;
-  
+    max-width: 100%;  
     min-width: 800px;
     
     top: 8px;
@@ -253,6 +255,10 @@ footer{
     text-align: center;
     background-color: white;
   }
+
+.rowOfDots{
+    padding-top: 12px;
+}
 
  .dot {
     cursor: pointer;
