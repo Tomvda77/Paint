@@ -94,7 +94,8 @@ header li a{
     background: url(../images/subscribe.jpg)  no-repeat;
     background-size: 100% 100%;  
     border-bottom: solid 4px;
-    border-color: brown;      
+    border-color: brown; 
+    vertical-align: center;            
 }
 
 #newsletter h1{
@@ -107,18 +108,24 @@ header li a{
     float:right;
 }
 
+#newsletter form button:hover{
+    border-style: inset;
+}
+
 #boxes{
     margin-top: 0px;
     height: 200px;
-    max-height: 250px;
+    min-height: 500px;
 }
 
 #boxes .box{
     float: left;
-    width: 23%; 
-    padding-left: 10px;
-    padding-right: 10px;
+    width: 22%; 
+    padding-left: 1%;
+    padding-right: 1%;
     text-align: center;  
+    min-width: 300px; 
+    min-height: 500px;
 }
 
 #boxes .box .imageTitle{
@@ -127,10 +134,8 @@ header li a{
 }
 
 #boxes .box img{
-    width: 180px;
-    min-width: 50px;
+    width: 250px;
 }
-
 
 footer{
     clear: both;     
@@ -144,7 +149,6 @@ footer{
     float: left;
     padding-right: 20px;
 }
-
 
 #about .container{
     margin-top: 0px;
