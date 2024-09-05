@@ -13,8 +13,16 @@ body {
 .header-container {
   padding: 20px 0;
   text-align: center;
-  background-color: #433f63;
+  background: linear-gradient(
+    30deg,
+    rgba(248, 248, 221, 0.952) 13%,
+    #433f63 100%
+  );
   color: white;
+}
+
+.header-container h1 {
+  text-transform: uppercase;
 }
 
 .header-container p {
@@ -26,9 +34,9 @@ body {
   background-color: #f8fafe;
   margin: 20px;
   display: flex;
-  justify-content: space-evenly;
+  justify-content: left;
   text-align: center;
-  gap: 20px;
+  gap: 30px;
   flex-wrap: wrap;
 }
 
@@ -57,6 +65,9 @@ body {
   background: linear-gradient(90deg, rgba(255, 203, 114, 1) 13%, red 100%);
 }
 
+.card3 h2 {
+  background: linear-gradient(90deg, red 13%, rebeccapurple 100%);
+}
 .cards h3 {
   text-transform: uppercase;
   padding: 10px;
@@ -98,8 +109,9 @@ body {
   margin-right: 10px;
 }
 
-img {
-  width: 80%;
+.cards img {
+  width: 80% auto;
+  max-height: 250px;
 }
 
 .card1 img {
