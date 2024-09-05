@@ -34,7 +34,7 @@ body {
   background-color: #f8fafe9d;
   margin: 20px;
   display: flex;
-  justify-content: left;
+  justify-content: center;
   text-align: center;
   gap: 30px;
   flex-wrap: wrap;
@@ -124,3 +124,9 @@ body {
 .card1 img {
   filter: grayscale(85%);
 }
+/* 
+@media (max-width: 350px) {
+  body {
+    background-color: lightblue;
+  }
+} */
