@@ -10,6 +10,12 @@ body {
   background-color: #27264bc5;
 }
 
+header {
+  position: sticky;
+  top: 0px;
+  z-index: 1;
+}
+
 .header-container {
   padding: 20px 0;
   text-align: center;
@@ -121,12 +127,51 @@ body {
 .cards img:hover {
   cursor: pointer;
 }
+
+.card1,
+.card2,
+.card3 {
+  border-radius: 5px;
+}
+
 .card1 img {
   filter: grayscale(85%);
+  z-index: -1;
 }
-/* 
-@media (max-width: 350px) {
-  body {
-    background-color: lightblue;
+
+footer {
+  p {
+    color: white;
+    text-transform: uppercase;
+    text-align: center;
+    padding-bottom: 30px;
+    margin-top: 30px;
   }
-} */
+}
+
+@media (max-width: 625px) {
+  body {
+    .cards h3 {
+      font-size: 0.8rem;
+      padding: 5px;
+    }
+    .cards p {
+      font-size: 0.8rem;
+      padding: 5px;
+    }
+    .cards ul {
+      margin-top: 40px;
+      padding: 0px;
+    }
+    .cards li {
+      display: none;
+    }
+    .cards a {
+      font-size: 0.8rem;
+      padding: 10px;
+    }
+    .made {
+      display: none;
+    }
+  }
+}
