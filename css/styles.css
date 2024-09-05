@@ -43,11 +43,11 @@ body {
 .cards {
   max-width: 250px;
   background-color: #fff;
-  box-shadow: 0px 6px 6px rgba(0, 0, 0, 0.3);
+  box-shadow: 0px 6px 6px rgba(0, 0, 0, 0.8);
 }
 .cards:hover {
   background-color: #fff;
-  box-shadow: 0px 6px 6px rgba(0, 0, 0, 0.8);
+  box-shadow: 0px 9px 9px rgba(0, 0, 0, 0.9);
 }
 .cards h2 {
   text-transform: uppercase;
