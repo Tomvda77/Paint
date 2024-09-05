@@ -44,20 +44,21 @@ header {
   text-align: center;
   gap: 30px;
   flex-wrap: wrap;
-  border-radius: 5px;
+  border-radius: 10px;
 }
 
 .cards {
   max-width: 250px;
   background-color: #fff;
-  box-shadow: 0px 6px 6px rgba(0, 0, 0, 0.8);
+  box-shadow: 8px 8px 9px rgba(0, 0, 0, 0.5);
 }
 .cards:hover {
   background-color: #fff;
-  box-shadow: 0px 9px 9px rgba(0, 0, 0, 0.9);
+  box-shadow: 8px 9px 9px rgba(0, 0, 0, 0.9);
 }
 .cards h2 {
   text-transform: uppercase;
+  letter-spacing: 1.5px;
   border-radius: 5px;
   padding: 5px;
   margin: 20px 20px;
@@ -122,6 +123,7 @@ header {
 .cards img {
   width: 80% auto;
   max-height: 250px;
+  border-radius: 10px;
 }
 
 .cards img:hover {
@@ -131,7 +133,7 @@ header {
 .card1,
 .card2,
 .card3 {
-  border-radius: 5px;
+  border-radius: 10px;
 }
 
 .card1 img {
@@ -157,7 +159,7 @@ footer {
     }
     .cards p {
       font-size: 0.8rem;
-      padding: 5px;
+      padding: 5px 15px;
     }
     .cards ul {
       margin-top: 40px;
