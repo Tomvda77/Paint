@@ -31,13 +31,14 @@ body {
 
 .main-container {
   padding: 20px 20px;
-  background-color: #f8fafe;
+  background-color: #f8fafe9d;
   margin: 20px;
   display: flex;
   justify-content: left;
   text-align: center;
   gap: 30px;
   flex-wrap: wrap;
+  border-radius: 5px;
 }
 
 .cards {
@@ -71,16 +72,18 @@ body {
 .cards h3 {
   text-transform: uppercase;
   padding: 10px;
+  font-size: 16px;
 }
 
 .cards p {
-  padding: 20px;
+  padding: 15px;
   margin-bottom: 25px;
+  font-size: 14px;
 }
 
 .cards a {
   flex: 1;
-  border: 2px solid #27264b;
+  border: 1px solid #27264b;
   border-radius: 5px;
   text-decoration: none;
   background-color: white;
@@ -102,6 +105,7 @@ body {
 
 .cards ul li {
   text-align: left;
+  font-size: 14px;
 }
 
 .cards ul li i {
@@ -114,6 +118,9 @@ body {
   max-height: 250px;
 }
 
+.cards img:hover {
+  cursor: pointer;
+}
 .card1 img {
   filter: grayscale(85%);
 }
