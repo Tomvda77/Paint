@@ -48,10 +48,12 @@ header {
   min-width: 250px;
   background-color: white;
   box-shadow: 8px 8px 9px rgba(0, 0, 0, 0.5);
+  filter: grayscale(35%);
 }
 .cards:hover {
   background-color: bisque;
   box-shadow: 8px 9px 9px rgba(0, 0, 0, 0.9);
+  filter: grayscale(0%);
 }
 .cards h2 {
   text-transform: uppercase;
@@ -123,17 +125,12 @@ header {
   border-radius: 10px;
 }
 
-.cards img:hover {
-  cursor: pointer;
-}
-
 .cards {
   border-radius: 10px;
 }
 
-.basic img {
-  filter: grayscale(85%);
-  z-index: -1;
+.cards img:hover {
+  filter: grayscale(0%);
 }
 
 footer {
