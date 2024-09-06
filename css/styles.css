@@ -19,7 +19,7 @@ header {
 .header-container {
   padding: 20px 0;
   text-align: center;
-  background: linear-gradient(30deg, bisque 10%, #433f63 100%);
+  background: linear-gradient(45deg, bisque 10%, #27264bc5 100%);
   color: white;
 }
 
