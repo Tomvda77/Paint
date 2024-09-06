@@ -119,7 +119,7 @@ header {
 
 .cards img {
   width: 80% auto;
-  max-height: 250px;
+  max-height: 300px;
   border-radius: 10px;
 }
 
@@ -154,15 +154,22 @@ footer {
     gap: 10px;
     flex-wrap: wrap;
     flex-direction: row;
-    max-width: 600px;
-    min-width: 500px;
+    max-width: 550px;
+    min-width: 550px;
   }
   .card-top {
     margin-left: 25px;
     padding-right: 40px;
+    min-width: 240px;
   }
-  .card-bottom {
+  .card-top img {
+    margin-left: 0px;
+    min-width: 150px;
+  }
+  .card-bottom a {
+    display: block;
     text-align: center;
+    min-width: 200px;
   }
   .cards h2 {
     margin: 10px auto;
@@ -218,7 +225,7 @@ footer {
     padding: 5px 15px;
   }
   .cards ul {
-    margin-top: 40px;
+    margin: 40px 0px;
     padding: 0px;
   }
   .cards li {
