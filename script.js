@@ -1,10 +1,16 @@
 function changeImage() {
   const selectedCard = this.parentElement.parentElement;
-  const oldImage = selectedCard.querySelector('img');
-  console.log(selectedCard);
-  oldImage.src = './images/underconstruction.jpg';
-  oldImage.alt = 'Under Construction';
-  return false;
+  const Image = selectedCard.querySelector('img');
+  const oldSrc = Image.src;
+  const oldAlt = Image.alt;
+  Image.src = './images/underconstruction.jpg';
+  Image.alt = 'Under Construction';
+  setTimeout(() => {
+    // wait 1.5 seconds
+    Image.src = oldSrc;
+    Image.alt = oldAlt;
+  }, 1500);
+  return false; //don't jump to top of page
 }
 
 document.querySelector('a').onclick = changeImage;
