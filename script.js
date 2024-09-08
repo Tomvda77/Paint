@@ -4,6 +4,7 @@ function changeImage() {
   console.log(selectedCard);
   oldImage.src = './images/underconstruction.jpg';
   oldImage.alt = 'Under Construction';
+  return false;
 }
 
 document.querySelector('a').onclick = changeImage;
